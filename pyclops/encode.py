@@ -2,7 +2,7 @@ import hashlib
 import pandas as pd
 
 
-def hash_cat_cols(dataframe):
+def encode(dataframe):
     for col in dataframe:
         # NEED TO COME UP WITH SOLUTION ON FINDING DATETIME VALUES
         # Any categorical column should be identified
